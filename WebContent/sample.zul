@@ -1,0 +1,24 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+    <window title="new page title" border="normal">
+        <vlayout>
+            <!-- First Image -->
+            <hlayout>
+                <image id="myImage" src="1.jpeg" />
+                <vlayout>
+                    <label value="Price: $10" />
+                    <button label="Buy" onClick='Clients.alert("d")'/>
+                </vlayout>
+            </hlayout>
+
+            <!-- Second Image -->
+            <hlayout>
+                <image id="myImage2" src="2.jpeg" />
+                <vlayout>
+                    <label value="Price: $15" />
+                    <button label="Buy" />
+                </vlayout>
+            </hlayout>
+        </vlayout>
+    </window>
+</zk>

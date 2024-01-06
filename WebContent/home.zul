@@ -1,0 +1,51 @@
+<?page title="Online STORE" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="Online STORE" border="normal" apply="onlinezk.home">
+<textbox id="text"></textbox>
+<button id="button">Search Button</button>
+<button id="buttonid">Search by id</button>
+<separator></separator>
+<separator></separator>
+<separator></separator>
+
+<vlayout>
+            <hlayout>
+                <image id="myImage1" src="1.jpeg" />
+                <vlayout>
+                    <label value="Price: $10" />
+                    <button label="Buy"  onClick='Clients.alert("d")'/>
+                </vlayout>
+                 <image id="myImage2" src="2.jpeg" />
+                <vlayout>
+                    <label value="Price: $15" />
+                    <button label="Buy" href="detailspayment.zul"/>
+                </vlayout>
+                 <image id="myImage5" src="2.jpeg" />
+                <vlayout>
+                    <label value="Price: $15" />
+                    <button label="Buy" href="detailspayment.zul"/>
+                </vlayout>
+            </hlayout>
+            </vlayout>
+            <vlayout>
+            <hlayout>
+                <image id="myImage3" src="1.jpeg" />
+                <vlayout>
+                    <label value="Price: $10" />
+                    <button label="Buy"  onClick='Clients.alert("d")'/>
+                </vlayout>
+                 <image id="myImage4" src="2.jpeg" />
+                <vlayout>
+                    <label value="Price: $15" />
+                    <button label="Buy" href="detailspayment.zul"/>
+                </vlayout>
+                <image id="myImage6" src="2.jpeg" />
+                <vlayout>
+                    <label value="Price: $15" />
+                    <button label="Buy" href="detailspayment.zul"/>
+                </vlayout>
+            </hlayout>
+            </vlayout>
+
+</window>
+</zk>

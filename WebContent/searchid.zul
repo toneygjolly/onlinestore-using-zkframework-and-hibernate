@@ -1,0 +1,16 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="" border="normal">
+<textbox id="text"></textbox>
+<button id="button">Search Button</button>
+<button id="buttonfind">All data</button>
+<listbox id="listbox" emptyMessage="no book found">
+    <listhead>
+        <listheader label="Book ID" />
+        <listheader label="BookName" />
+        <listheader label="Author Name" />
+        <listheader label="BookPrice" />
+    </listhead>
+    </listbox>
+</window>
+</zk>

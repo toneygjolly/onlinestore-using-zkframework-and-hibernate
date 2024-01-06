@@ -1,0 +1,28 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal">
+<vlayout>
+           <label id="lName" value="Name" />
+            <textbox id="name" />
+            <label id="Address" value="Address" />
+            <textbox id="laddress" />
+            <button id="buymoreproduct" href="home.zul">More product to buy</button>
+            <button id="Next" href="">Next</button>
+            <space></space>
+            payment option
+            <radiogroup  id="genderRadio">
+  <radio label="online"  value="online" checked="true">
+  <attribute name="onCheck">
+        Clients.evalJavaScript("window.location.href = 'payment.zul';");
+    </attribute>
+  </radio>
+  <radio label="cashondelivery" value="cashondelivery">
+  <attribute name="onCheck">
+        Clients.evalJavaScript("window.location.href = 'payment.zul';");
+    </attribute>
+  </radio>
+  </radiogroup>
+            </vlayout>
+            
+</window>
+</zk>
